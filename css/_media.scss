@@ -1,0 +1,179 @@
+/*Desktop*/
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+    background: {
+      image: url(../img/bgR2.webp), url(../img/bgR3.webp);
+      repeat: no-repeat;
+      position: -250px -20px, top right, right bottom;
+    }
+  }
+  header {
+    .head {
+      .name img {
+        max-width: 295px;
+      }
+      .logo img {
+        max-width: 64px;
+      }
+    }
+    &::before {
+      width: 10vw;
+      bottom: -2px;
+      right: 23%;
+    }
+  }
+  .contain {
+    padding: 0 20px;
+  }
+  .data {
+    padding: 10px 0;
+    font-size: 0.8em;
+    margin-bottom: 20px;
+    .num {
+      margin-left: 0;
+      border-radius: 0 0 15px 15px;
+    }
+  }
+  .wrap {
+    display: grid;
+    grid-template-columns: minmax(500px, 1fr) 315px;
+    grid-template-areas: "principal aside";
+    gap: 20px;
+  }
+  .ppal {
+    grid-area: principal;
+  }
+  aside {
+    grid-area: aside;
+  }
+  .titular {
+    border-radius: 30px 30px 10px 10px;
+    box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.35);
+    padding-bottom: 90px;
+    .image {
+      height: 390px;
+      overflow: hidden;
+      border-radius: 30px 30px 0 0;
+      h1 {
+        font-size: 1.7em;
+        top: 40px;
+        right: 0;
+        max-width: 55%;
+        height: fit-content;
+      }
+    }
+    .ppal {
+      position: relative;
+      .txt {
+        padding: 40px 20px;
+      }
+    }
+  }
+  .extend-arti {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: transparent;
+    margin-top: -110px;
+    .item {
+      padding: 0;
+
+      h3 {
+        font-size: 1.3em;
+      }
+
+      .txt {
+        height: calc(100% - 40px);
+        font-size: 0.8em;
+        box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.15);
+      }
+    }
+  }
+  .notes {
+    .items_n {
+      grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+      gap: 40px 20px;
+      &.items4 {
+        grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+      }
+    }
+    .txt {
+      margin-top: 20px;
+      font-size: 0.95em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    a {
+      font-size: 90%;
+    }
+  }
+
+  ///ASIDE
+  .person {
+    background-color: $blanco;
+    box-shadow: 0px 17px 42px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 30px;
+    font-size: 0.8em;
+    margin-bottom: 40px;
+    img {
+      margin-top: 10px;
+    }
+    .conv {
+      font-size: 1.1em;
+      padding-bottom: 0;
+      p {
+        margin: 0;
+      }
+      a.btns {
+        margin: 10px 0 5px;
+        padding: 10px;
+      }
+    }
+  }
+  .banner {
+    padding: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    .media {
+      display: flex;
+      font-size: 0.8em;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 20px;
+      img {
+        width: 40px;
+      }
+      .movil {
+        display: none;
+      }
+    }
+    .etica {
+      padding: 5px 20px;
+      border-radius: 50px;
+      font-size: 0.8em;
+    }
+    .logo {
+      text-align: center;
+      img {
+        width: 40px;
+      }
+    }
+  }
+  .home {
+    .contain {
+      grid-template-columns: minmax(500px, 1fr) 50px;
+      .library .item .txt h2 span {
+        margin: 2px 0 4px;
+      }
+    }
+  }
+}

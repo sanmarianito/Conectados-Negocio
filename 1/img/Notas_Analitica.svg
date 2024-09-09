@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" width="68.54" height="79.47" viewBox="0 0 68.54 79.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00367b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #00c8ff;
+      }
+    </style>
+  </defs>
+  <g id="Capa_3" data-name="Capa 3">
+    <g>
+      <g>
+        <path class="cls-1" d="M28.5,29.33v47.16h-7V29.33h7M31.49,26.35h-12.96v53.13h12.96V26.35h0Z"/>
+        <path class="cls-1" d="M65.55,18.34v58.15h-7V18.34h7M68.54,15.36h-12.96v64.11h12.96V15.36h0Z"/>
+        <path class="cls-1" d="M9.98,44.58v31.91H2.98v-31.91h7M12.96,41.6H0v37.88h12.96v-37.88h0Z"/>
+        <path class="cls-1" d="M47.03,38.36v38.13h-7v-38.13h7M50.01,35.37h-12.96v44.1h12.96v-44.1h0Z"/>
+      </g>
+      <g>
+        <polygon class="cls-2" points="7.52 30.69 5.44 28.55 24.78 9.79 43.33 20.47 61.05 4.27 63.06 6.47 43.73 24.14 25.24 13.5 7.52 30.69"/>
+        <circle class="cls-2" cx="6.48" cy="29.62" r="5.37"/>
+        <circle class="cls-2" cx="25.01" cy="11.64" r="5.37"/>
+        <circle class="cls-2" cx="43.31" cy="21.9" r="5.37"/>
+        <circle class="cls-2" cx="62.05" cy="5.37" r="5.37"/>
+      </g>
+    </g>
+  </g>
+</svg>
